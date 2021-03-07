@@ -2,16 +2,28 @@
 
 var randomQuotes = {
     quoteOne: {
-        text: 'This works.',
-        author: 'Linford Christie'
+        text: 'Be yourself, everyone else is already taken.',
+        author: 'Oscar Wilde'
 },
     quoteTwo: {
-        text: 'Working hard!',
-        author: 'Archimedes'
+        text: "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+        author: 'Marilyn Monroe'
 },
     quoteThree: {
-        text: 'Hardly working...',
-        author: 'Socrates'
+        text: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        author: 'Albert Einstein'
+},
+    quoteFour: {
+    text: 'So many books, so little time',
+    author: 'Frank Zappa'
+},
+    quoteFive: {
+    text: "A room without books is like a body without a soul.",
+    author: 'Marcus Tullius Cicero'
+},
+    quoteSix: {
+    text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
+    author: 'Bernard M. Baruch'
 },
 
 };

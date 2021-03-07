@@ -1,6 +1,12 @@
+body {
+  font-family: Poppins, 'sans serif';
+}
+
 div {
-    background-color: #d3d3d3;
+    background-color: #87ceeb;
     text-align: center;
+    color: white;
+
   }
   
   p {
@@ -8,9 +14,22 @@ div {
   }
   
   #quote-box {
-    height: 110px;
-    width: 300px;
+    height: 3in;
+    width: 3in;
     margin: auto;
-    border: 3px solid black
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 25px;
   
+  }
+
+  #author {
+    color: black;
+
+    margin: 10px;
+  }
+
+  #buttons {
+    text-align: center;
+  margin: 0.25in;
   }
