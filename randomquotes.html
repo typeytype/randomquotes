@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href=randomquotes.css>
+    <title>Document</title>
+</head>
+<body>
+    <script src=randomquotes.js> 
+    </script>
+    
+    
+    
+    
+    <div id='quote-box'>
+    
+    
+    
+    
+      <b><div id='text'>
+        <script>
+            document.getElementById('text').innerHTML = (selectedText)
+            
+        </script>
+          </div></b>
+    
+      
+      <em><div id='author'>
+        <script>
+            document.getElementById('author').innerHTML = (selectedAuthor)
+            
+        </script>
+        </div></em><br>
+    <a id=tweet-quote href="https://twitter.com/share?ref_src=twsrc%5Etfw" target=_blank class="twitter-share-button" data-show-count="false" data-lang='en' data-text='Check out this awesome random quote generator!'>Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <br>
+      <button id='new-quote' onclick='getAnotherQuote()'>
+        Random
+      </button>
+      <script>
+        function getAnotherQuote() {
+        var arraySelector = arrayOfQuotes[(Math.floor(Math.random() * arrayOfQuotes.length))];
+        var selectedText = randomQuotes[arraySelector].text;
+        var selectedAuthor = randomQuotes[arraySelector].author;
+        document.getElementById('text').innerHTML = (selectedText);
+        document.getElementById('author').innerHTML = (selectedAuthor);
+        }
+    </script>
+    </div>
+      <p><em><small>n.b. if you're viewing this in an embedded window, you'll have to click the Tweet link to open in a new tab.</p></em></small>
+</body>
+</html>

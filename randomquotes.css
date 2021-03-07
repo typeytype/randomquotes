@@ -1,0 +1,16 @@
+div {
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  #quote-box {
+    height: 110px;
+    width: 300px;
+    margin: auto;
+    border: 3px solid black
+  
+  }
